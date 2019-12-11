@@ -1,12 +1,3 @@
-nav{
-	background-color:#0d0d0d;
-	color:white;
-	font-weight: bold;
-	font-family:Tahoma, Geneva, sans-serif;
-	text-align:center;
-	display:flex;
-}
-
 body{margin:0;
 }
 #button{
@@ -35,22 +26,24 @@ a {
   ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
     background-color: #0d0d0d;
+	padding:0;
+    overflow: hidden;
+ 
   }
   
-   #lefty{
+   li{
     float: left;
   }
-  #righty{
-    float: right;
-  }
+  
   li a {
     display: block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 	color:white;
+	font-weight: bold;
+	font-family:Tahoma, Geneva, sans-serif;
   }
   
   li a:hover {
